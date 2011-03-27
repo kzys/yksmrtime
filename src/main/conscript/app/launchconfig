@@ -1,0 +1,12 @@
+[app]
+  version: 0.1.0
+  org: com.pactdisc
+  name: yksmrtime
+  class: yksmrtime.Main
+[scala]
+  version: 2.8.1
+[repositories]
+  local
+  maven-local
+  scala-tools-release
+  maven-central
