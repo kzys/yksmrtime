@@ -4,6 +4,15 @@ import java.util.Calendar
 import java.net.URL
 import java.io.{File, OutputStream}
 
+case class Exit(val code: Int) extends xsbti.Exit
+
+class Main extends xsbti.AppMain {
+  def run(config: xsbti.AppConfiguration) = {
+    Main.main(config.arguments)
+    Exit(0)
+  }
+}
+
 object Main {
   val CLOCK_AIF_DIR = "http://yksmrdvd.com/SOUND/clock_aif/"
   def mp3(kind: String, n: Int) = {

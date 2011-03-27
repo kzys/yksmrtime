@@ -2,7 +2,7 @@
   version: 0.1.0
   org: com.pactdisc
   name: yksmrtime
-  class: yksmrtime.Main
+  class: com.pactdisc.yksmrtime.Main
 [scala]
   version: 2.8.1
 [repositories]
